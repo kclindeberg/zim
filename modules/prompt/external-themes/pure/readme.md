@@ -146,11 +146,11 @@ Or skip the `oh-my-zsh` integration above and simply:
 1. Set `ZSH_THEME=""` in your `.zshrc` to disable oh-my-zsh themes.
 2. Follow the Pure [Install](#install) instructions.
 
-### [prezto](https://github.com/zsh-users/prezto)
+### [prezto](https://github.com/sorin-ionescu/prezto)
 
 Pure is bundled with Prezto. No need to install it.
 
-Set `zstyle ':prezto:module:prompt' theme 'pure'` in `~/.zpreztorc`.
+Add `prompt pure` to your `~/.zpreztorc`.
 
 ### [zim](https://github.com/Eriner/zim)
 
@@ -223,6 +223,8 @@ On a default setup, running the command `kldload pty` should do the trick. If yo
 * **Zsh**
   * [therealklanni/purity](https://github.com/therealklanni/purity): a more compact current working directory, important details on the main prompt line, and extra Git indicators.
   * [intelfx/pure](https://github.com/intelfx/pure): Solarized-friendly colors, highly verbose and fully async Git integration
+  * [dfurnes/purer](https://github.com/dfurnes/purer): A compact single-line prompt with built-in Vim-mode indicator.
+
 
 ## Team
 
